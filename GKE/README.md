@@ -17,8 +17,16 @@ gcloud container clusters create matvey-cluster --num-nodes=2
 
 gcloud components install kubectl
 
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/GKE/Screens/Install%20gke-plugin.png?raw=true">
+
 5. Connect to the cluster
 
 gcloud container clusters get-credentials matvey-cluster
 
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/GKE/Screens/kubectl.png?raw=true">
+
 ## Result in Compute Engine and GKE Console
+
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/GKE/Screens/Compute-Engine.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/GKE/Screens/GKE.png?raw=true">
