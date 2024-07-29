@@ -3,15 +3,17 @@ The Application Load Balancer distributes HTTP and HTTPS traffic to backends hos
 
 First of all we should create Instance template
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/ALB/Screens/ALB-2.png?raw=true">
 
 And Instance group (it's like target group in AWS)
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/ALB/Screens/ALB-3.png?raw=true">
 
 Now create ALB with Frontend and Backend
 
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/ALB/Screens/ALB-1.png?raw=true">
+
 ## Result of ALB Deployment Containers
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/ALB/Screens/Result.png?raw=true">
 
