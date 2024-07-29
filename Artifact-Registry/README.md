@@ -5,6 +5,12 @@ Could work Regional and Multi-Regional
 
 # Steps to work with Artifact Registry
 
+Create Artifact Registry in Console GCP
+
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/Artifact-Registry/Screens/AR-1.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/Artifact-Registry/Screens/AR-2.png?raw=true">
+
 Open CLI in your Application path with Dockerfile
 
 ```
@@ -31,30 +37,27 @@ docker push LOCATION-docker.pkg.dev/YOUR_PROJECT_ID/REPOSITORY_NAME/IMAGE_NAME:T
 
 # For example:
 docker push us-east1-docker.pkg.dev/staging-430906/php-application/app-php:V1.0
+```
 
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/Artifact-Registry/Screens/Build-Image.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/Artifact-Registry/Screens/AR-1.png?raw=true">
+
+To check the pull command go to Console GCP and Click inside Artifact Registry to pull commands
+
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/Artifact-Registry/Screens/AR-4-Pull.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/Artifact-Registry/Screens/AR-5-Pull.png?raw=true">
+
+```
 # To check if it works correct use pull and run
 # For example:
 docker pull us-east1-docker.pkg.dev/staging-430906/php-application/app-php:V1.0
 
 docker run -d -p 80:80 us-east1-docker.pkg.dev/staging-430906/php-application/app-php:V1.0
 ```
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/Artifact-Registry/Screens/Test-AR.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/Artifact-Registry/Screens/Test-Container-1.png?raw=true">
 
-<img src="">
-
-<img src="">
-
-<img src="">
-
-<img src="">
-
-<img src="">
-
-<img src="">
-
-<img src="">
-
-<img src="">
-
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/Artifact-Registry/Screens/Test-Container-2.png?raw=true">
