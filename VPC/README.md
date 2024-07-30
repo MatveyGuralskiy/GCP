@@ -1,6 +1,10 @@
 # VPC (Virtual Private Cloud)
 Provides networking functionality to Compute Engine virtual machine (VM) instances, Google Kubernetes Engine (GKE) clusters, and serverless workloads
 
+In GCP a VPC is global network that can span multiple regions. It's not limited to any specific range of IP Addresses (CIDR Blocks)
+
+This approach gives greater flexibility and allows you to add or change subnets without having to reconfigure the entire VPC. You can create different subnets with different CIDR blocks in different regions within the same VPC.
+
 I created 2 VPC's: First VPC get 4 subnets, 2 in USA: private and public, and 2 in Europe: private and public. The second VPC located in Asia with public subnet only
 
 <img src="https://github.com/MatveyGuralskiy/GCP/blob/main/VPC/Screens/VPC-List.png?raw=true">
