@@ -34,9 +34,3 @@ After that I update my Cloud Function and checked API URL
 Monitoring of API Gateway
 
 <img src="https://github.com/MatveyGuralskiy/GCP/blob/main/API-Gateway/Screens/API-Gateway-Monitoring.png?raw=true">
-
-<img src="">
-
-<img src="">
-
-<img src="">
