@@ -7,8 +7,18 @@ I created 2 functions for example:
 
 2. Run Serverless Website
 
-<img src="">
+## Create Bucket Function
 
-## Result:
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/Cloud-Functions/Screens/Function-Create-Bucket.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/Cloud-Functions/Screens/Result-Create-Bucket.png?raw=true">
+
+## Serverless Website Function
+
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/Cloud-Functions/Screens/Function-Serverless-Website.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/Cloud-Functions/Screens/Result-Serverless-Website.png?raw=true">
+
+## Functions list
+
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/Cloud-Functions/Screens/Functions.png?raw=true">
