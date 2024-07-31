@@ -32,5 +32,31 @@ gcloud container clusters get-credentials matvey-cluster
 <img src="https://github.com/MatveyGuralskiy/GCP/blob/main/GKE/Screens/GKE.png?raw=true">
 
 
-## Now Let's work with GKE like AWS ECS Service
+# Now Let's work with GKE like AWS ECS Service
+GKE also can be very simple as ECS AWS Service
 
+Go to GCP GKE Console and choose Deploy Container
+
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/GKE/Screens/GKE-Container-1.png?raw=true">
+
+Let's Config Cluster
+
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/GKE/Screens/GKE-Container-2.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/GKE/Screens/GKE-Container-3.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/GKE/Screens/GKE-Container-4.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/GKE/Screens/GKE-Container-5.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/GKE/Screens/GKE-Container-6.png?raw=true">
+
+Now Our Cluster has Service, Deployment, Load Balancer, Pods, Nodes, ReplicaSets and more
+
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/GKE/Screens/GKE-Container-7-Deployed.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/GKE/Screens/GKE-Container-7-Deployed.png?raw=true">
+
+Our Application with Service GKE Load Balancer
+
+<img src="https://github.com/MatveyGuralskiy/GCP/blob/main/GKE/Screens/GKE-Container-Application.png?raw=true">
