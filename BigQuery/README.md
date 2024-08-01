@@ -1,3 +1,4 @@
+# BigQuery (Redshift AWS)
 Google BigQuery is a fully managed, serverless data warehouse service designed for large-scale data analytics and real-time querying. It allows users to run fast and SQL-like queries on massive datasets with ease and efficiency.
 
 Key features of BigQuery include:
