@@ -5,7 +5,10 @@ Google Cloud Pub/Sub is a messaging service for building event-driven systems an
 
 Key features of Google Cloud Pub/Sub:
 
-Asynchronous Messaging: Allows components of an application to communicate with each other without needing to be directly connected or synchronized.
-Scalability: Can handle high message volumes and scales automatically to accommodate growing workloads.
-Reliability: Ensures message delivery with guaranteed at-least-once delivery and supports message retention for fault tolerance.
-Integration: Easily integrates with other Google Cloud services like Dataflow, BigQuery, and Cloud Functions for building complex event-driven architectures.
+1. Asynchronous Messaging: Allows components of an application to communicate with each other without needing to be directly connected or synchronized.
+
+2. Scalability: Can handle high message volumes and scales automatically to accommodate growing workloads.
+
+3. Reliability: Ensures message delivery with guaranteed at-least-once delivery and supports message retention for fault tolerance.
+
+4. Integration: Easily integrates with other Google Cloud services like Dataflow, BigQuery, and Cloud Functions for building complex event-driven architectures.
